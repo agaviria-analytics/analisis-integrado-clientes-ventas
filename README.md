@@ -16,7 +16,7 @@ Se creó una base de datos con las siguientes tablas:
 - `ventas` se relaciona con `productos`, `clientes`, `fecha`, `canal`
 - `entregas` se relaciona con `fecha`
 
-![Modelo SQL](graficas/modeloER.png)
+![Modelo SQL](python_exportador/graficas/modeloER.png)
 
 ## 🐍 2. Limpieza y Exportación con Python
 ### Estructura:
@@ -74,7 +74,7 @@ Se conectó el Excel exportado con Power BI.
 - Tabla de hechos: `ventas`
 - Tabla de dimensiones: `Calendario`
 
-![Modelo Power BI](graficas/TablaCalendario.png)
+![Modelo Power BI](python_exportador/graficas/TablaCalendario.png)
 
 ### Medidas DAX recomendadas:
 - Total Ventas = SUM(ventas[total_venta])
@@ -106,12 +106,12 @@ Se conectó el Excel exportado con Power BI.
 
 ## 📷 Gráficos incluidos realizados con python atraves de las librerias matplotlib y seaborn
 
-![Top 5 productos](graficas/top5_productos.png)  
-![Ventas por mes](graficas/ventas_por_mes.png)  
-![Participación de clientes](graficas/participacion_clientes.png)
+![Top 5 productos](python_exportador/graficas/top5_productos.png)  
+![Ventas por mes](python_exportador/graficas/ventas_por_mes.png)  
+![Participación de clientes](python_exportador/graficas/participacion_clientes.png)
 
 🚀 Proyecto ideal para mostrar dominio técnico en SQL, Python y Power BI aplicado a análisis de ventas.
 
 ## 📸 Vista del Dashboard en Power BI
 
-![Dashboard Power BI](graficas/dashboard.PNG)
+![Dashboard Power BI](python_exportador/graficas/dashboard.PNG)
