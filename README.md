@@ -16,7 +16,7 @@ Se creó una base de datos con las siguientes tablas:
 - `ventas` se relaciona con `productos`, `clientes`, `fecha`, `canal`
 - `entregas` se relaciona con `fecha`
 
-![Modelo SQL](python_exportador/graficas/modeloER.png)
+![Modelo SQL](python_exportador/graficas/modelo_ER.png)
 
 ## 🐍 2. Limpieza y Exportación con Python
 ### Estructura:
@@ -74,7 +74,7 @@ Se conectó el Excel exportado con Power BI.
 - Tabla de hechos: `ventas`
 - Tabla de dimensiones: `Calendario`
 
-![Modelo Power BI](python_exportador/graficas/TablaCalendario.png)
+![Modelo Power BI](python_exportador/graficas/Tabla_Calendario.png)
 
 ### Medidas DAX recomendadas:
 - Total Ventas = SUM(ventas[total_venta])
