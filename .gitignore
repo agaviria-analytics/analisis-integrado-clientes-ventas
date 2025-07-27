@@ -1,0 +1,14 @@
+# 📦 Entorno virtual de Python
+python_exportador/venv/
+
+# 🐍 Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# 💻 Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# 🧪 Archivos personales o experimentales (opcional)
+*.bak
+*.log
