@@ -16,7 +16,7 @@ Se creó una base de datos con las siguientes tablas:
 - `ventas` se relaciona con `productos`, `clientes`, `fecha`, `canal`
 - `entregas` se relaciona con `fecha`
 
-![Modelo SQL](python_exportador/graficas/modelo_ER.png)
+![Modelo SQL](python_exportador/graficas/Modelo_ER.png)
 
 ## 🐍 2. Limpieza y Exportación con Python
 ### Estructura:
