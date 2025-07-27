@@ -42,6 +42,7 @@ Conversión de columnas numéricas usando pd.to_numeric()
   `with pd.ExcelWriter('ventas_limpias.xlsx', engine='openpyxwl') as writer:`
      `df.to_excel(writer, sheet_name='ventas', index=False)`
 
+
 ## 🔌 Conexión a SQL Server desde Python
 
 Para automatizar la exportación de datos, se estableció una conexión entre Python y SQL Server utilizando las siguientes herramientas:
@@ -88,16 +89,19 @@ Se conectó el Excel exportado con Power BI.
 
 ## 📁 Estructura de carpetas:
 ```
-/python_exportador
-    ├── exportar_datos.py
-    ├── conexion_sql.py
-    ├── .env
-    ├── datos/
-        └── ventas_limpias.xlsx
-    ├── graficas/
-        ├── top5_productos.png
-        ├── participacion_clientes.png
-        └── ventas_por_mes.png
+/Análisis Integral de Clientes y Ventas
+    ├── README.md
+   ├── python_exportador/
+   │     ├── exportar_datos.py
+   │     ├── conexion_sql.py
+   │     ├── datos/
+   │     └── graficas/
+   │           ├── dashboard.png
+   │           ├── modelo_er.png
+   │           ├── tabla_calendario.png
+   │           ├── top5_productos.png
+   │           ├── ventas_por_mes.png
+   │           └── participacion_clientes.png
 ```
 
 ## 📷 Gráficos incluidos realizados con python atraves de las librerias matplotlib y seaborn
@@ -105,14 +109,6 @@ Se conectó el Excel exportado con Power BI.
 ![Top 5 productos](graficas/top5_productos.png)  
 ![Ventas por mes](graficas/ventas_por_mes.png)  
 ![Participación de clientes](graficas/participacion_clientes.png)
-
-## 🧠 Recomendaciones para portafolio:
-- Documentar todo el flujo técnico paso a paso.
-- Subir imágenes representativas del dashboard y del código.
-- Explicar en README el rol de cada herramienta y librería.
-- Subir versión `.pbix` del dashboard.
-
----
 
 🚀 Proyecto ideal para mostrar dominio técnico en SQL, Python y Power BI aplicado a análisis de ventas.
 
